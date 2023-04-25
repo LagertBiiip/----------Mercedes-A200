@@ -13,6 +13,6 @@ btns.forEach((btnItem, index) => {
         lists.forEach((listItem) => {
             listItem.classList.add('hidden');
         });
-        lists[index].classList.toggle('hidden');
+        lists[index].classList.remove('hidden');
     });
 });
