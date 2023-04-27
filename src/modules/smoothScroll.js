@@ -1,8 +1,10 @@
 const smoothScrollFunc = () => {
     const linksHead = document.querySelectorAll('.menu-list__link');
-    const mainScroll = document.querySelector('.main__scroll');
 
-    const newArray = [...linksHead, mainScroll];
+    const mainScroll = document.querySelector('.main__scroll');
+    const btnScroll = document.querySelector('.main__button');
+
+    const newArray = [...linksHead, mainScroll, btnScroll];
 
     newArray.forEach((link) => {
         link.addEventListener('click', (event) => {
