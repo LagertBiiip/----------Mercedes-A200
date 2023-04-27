@@ -9,9 +9,11 @@ for (let btn of tabsHandlerElems) {
         btn.classList.add('design-list__item_active');
 
         tabsContentElems.forEach((content) => {
-            if (content.dataset.tabsField == btn.dataset.tabsHandler)
+            if (content.dataset.tabsField == btn.dataset.tabsHandler) {
                 content.classList.remove('hidden');
-            else content.classList.add('hidden');
+            } else {
+                content.classList.add('hidden');
+            }
         });
     });
 }

@@ -11,7 +11,7 @@
             rel="stylesheet"
         />
         <link rel="stylesheet" href="./css/style.css" />
-		
+
         <script src="./js/accordion.js" defer></script>
         <script src="./js/smoothScroll.js" defer></script>
         <script src="./js/tabs.js" defer></script>
@@ -127,10 +127,16 @@
                             data-tabs-field="body"
                         />
                         <div class="design-text">
-                            <h2 class="section__title design__title">
+                            <h2
+                                data-tabs-field="interior"
+                                class="section__title design__title"
+                            >
                                 Комфорт в деталях
                             </h2>
-                            <h2 class="section__title design__title hidden">
+                            <h2
+                                data-tabs-field="body"
+                                class="section__title design__title hidden"
+                            >
                                 Притягивает взгляды
                             </h2>
                             <ul class="design-list">
@@ -139,7 +145,6 @@
                                         type="button"
                                         class="design-list__item design-list__item_active"
                                         data-tabs-handler="interior"
-                                        data-some-attr="attr"
                                     >
                                         Дизайн салона
                                     </button>
