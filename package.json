@@ -1,0 +1,22 @@
+{
+    "name": "promo_mercedes-a200",
+    "version": "1.0.0",
+    "description": "This project was developed as part of an intensive course from GloAcademy",
+    "main": "index.js",
+    "scripts": {
+        "build": "webpack"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/LagertBiiip/----------Mercedes-A200.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/LagertBiiip/----------Mercedes-A200/issues"
+    },
+    "homepage": "https://github.com/LagertBiiip/----------Mercedes-A200#readme",
+    "devDependencies": {
+        "webpack-cli": "^5.0.2"
+    }
+}
