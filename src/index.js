@@ -8,6 +8,7 @@ import accordionFunc from './modules/accordion';
 tabsFunc();
 smoothScrollFunc();
 sendFormFunc('.form-test-drive');
+sendFormFunc('.modal__form');
 modalFunc();
 burgerFunc();
 accordionFunc();
